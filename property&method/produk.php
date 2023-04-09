@@ -6,6 +6,11 @@ class Produk  {
 }
 
 $produk1 = new Produk();
-$produk2 = new Produk();
+$produk1->judul = "Naruto";
+$produk1->penulis = "Masashi Kishimoto";
+$produk1->penerbit = "Shounen JUmp";
+$produk1->harga = "30000";
+
+var_dump($produk1)
 
 ?>
